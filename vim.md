@@ -1,5 +1,16 @@
 ### Vim notes
 
+* cd /Applications/XAMPP/xamppfiles/htdocs/fujikyu-bus/application/modules/default/views/scripts/otoku/highland-set/common/block-b/sp/205.tpl
+* url
+* Smarty file readings
+```
+modules > controllers > action
+(default > url-name)
+
+—controllers＝default-views-scripts-name
+modify-周遊バス-ぺージ修正 タウンスニーカー _20170508
+```
+
 ## 画面整理
 * `Ctrl + P => Ctrl + v` - Open selected file in vertical split
 * `Ctrl + P => Ctrl + x` - Open selected file in horizontal spli
@@ -33,6 +44,7 @@
 * `rm -rf temp-dir` - ディレクトリを内部のファイルごと削除
 * `dw` -カーソルが存在する位置以降の単語を単語の最後の空白も含めて削除する
 * `de` -カーソルが存在する位置以降の単語を単語の最後の空白も含めず削除する
+* `:e!` - 保存した場所へ
 
 ## 検索
 * `/` -前の文字を検索 * `?` -後の文字を検索
@@ -41,7 +53,8 @@
 * `%s/old/new/g` -１行内でマッチした文字列すべてを置換
 * `set ic` -大文字・小文字を無視 * `set noic` -大文字・小文字を無視を無効
 * `Ag + `name`` -cssファイルを探す
-
+* `Ag` + `-g` + `単語名` -単語を検索
+* `Ag` + `-Q` + `単語名` -単語を検索
 
 ## コピー
 * `yi"` - Yank inside "" (コピー)
