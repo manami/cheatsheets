@@ -1,15 +1,4 @@
-### Vim notes
-
-* cd /Applications/XAMPP/xamppfiles/htdocs/fujikyu-bus/application/modules/default/views/scripts/otoku/highland-set/common/block-b/sp/205.tpl
-* url
-* Smarty file readings
-```
-modules > controllers > action
-(default > url-name)
-
-—controllers＝default-views-scripts-name
-modify-周遊バス-ぺージ修正 タウンスニーカー _20170508
-```
+# Vim notes
 
 ## 画面整理
 * `Ctrl + P => Ctrl + v` - Open selected file in vertical split
