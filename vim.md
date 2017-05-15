@@ -1,5 +1,16 @@
 # Vim notes
 
+## Surround Vim
+http://motw.mods.jp/Vim/surround.html
+
+* `yss'` - 文章全体にシングルクウォート y(yank)s(surround)s(sentence)
+* `ds'` - 文章全体のシングルクウォートを削除 d(delete)s(surround)
+* `vl(選択したい箇所まで)S'` - 選択した箇所にシングルクウォート
+* `di'` - シングルクウォート内を削除 d(delete)i(inside)
+* `cs'"` - シングルクウォートをダブルクウォートに変える c(change)s(surround) 
+* `ysiw'` - カーソルがある単語を’で囲む y(yank)s(surrond)iw(inner word)
+* `ci'` - c(change)i(inside)
+
 ## 画面整理
 * `Ctrl + P => Ctrl + v` - Open selected file in vertical split
 * `Ctrl + P => Ctrl + x` - Open selected file in horizontal spli
@@ -10,6 +21,10 @@
 * `ci'` - Change inside '' * `ci"` - Change inside ""
 * `ci<` - Change inside <>
 * `cc` - Change entire line
+* `yt> + Ctrl + v + 6J + Shift I + Command V + Escape + .` - Change multiple lines
+
+説明：
+![2017-05-15 22 37 23](https://cloud.githubusercontent.com/assets/17440627/26060157/238ae4c2-39bf-11e7-92ee-eaf2a1d792c0.jpg)
 
 ## 検索コマンド
 * `Ctrl + P` - Open file search window
@@ -35,6 +50,11 @@
 * `de` -カーソルが存在する位置以降の単語を単語の最後の空白も含めず削除する
 * `:e!` - 保存した場所へ
 
+## 空白削除コマンド
+* `g/~ *$/d` - 空白行を削除
+* `%s/^ *$//gc` - 半角空白で構成されている行の空白だけ削除
+* `%s/ *$//gc` - 行末の空白を削除 
+
 ## 検索
 * `/` -前の文字を検索 * `?` -後の文字を検索
 * `/\(hoge\|huga\)` -複数の文字を検索
@@ -49,3 +69,10 @@
 ## コピー
 * `yi"` - Yank inside "" (コピー)
 * `yw` -単語1語をコピー
+
+## ペースト
+* '0v$hy' - /nを除いて１行コピーする
+
+
+# 動き：
+![2017-05-15 22 43 42](https://cloud.githubusercontent.com/assets/17440627/26060426/01d31de4-39c0-11e7-9785-187f960b1143.jpg)

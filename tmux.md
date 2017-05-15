@@ -16,6 +16,7 @@ http://www.task-notes.com/entry/20150711/1436583600
 * `Ctrl B + w` - tmux内のタブを選択移動 
 * `Ctrl B + n` - tmux内のタブを順移動
 * `Ctrl B + p` - tmux内のタブを逆順移動
+* `Ctrl B + &` - tmux内のウィンドウを削除を逆順移動
 * `tmux a -t <session-name>` -  既に作成されたアタッチに入ること
 
 
