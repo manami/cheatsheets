@@ -1,13 +1,13 @@
 ### Tmux Notes
 http://www.task-notes.com/entry/20150711/1436583600
 
-tart new:
-
-    tmux
-
 Open tmux for current folder:
 
     tat
+
+start new:
+
+    tmux
 
 start new with session name:
 
@@ -25,11 +25,11 @@ list sessions:
 
     tmux ls
 
-<a name="killSessions"></a>kill session:
+kill session:
 
     tmux kill-session -t myname
 
-<a name="killAllSessions"></a>Kill all the tmux sessions:
+Kill all the tmux sessions:
 
     tmux ls | grep : | cut -d. -f1 | awk '{print substr($1, 0, length($1)-1)}' | xargs kill
 
