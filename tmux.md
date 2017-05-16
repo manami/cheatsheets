@@ -1,44 +1,15 @@
 ### Tmux Notes
 http://www.task-notes.com/entry/20150711/1436583600
 
-Open tmux for current folder:
-
-    tat
-
-start new:
-
-    tmux
-
-start new with session name:
-
-    tmux new -s myname
-
-attach:
-
-    tmux a  #  (or at, or attach)
-
-attach to named:
-
-    tmux a -t <session-name>
-
-list sessions:
-
-    tmux ls
-
-kill session:
-
-    tmux kill-session -t myname
-
-Kill all the tmux sessions:
-
-    tmux ls | grep : | cut -d. -f1 | awk '{print substr($1, 0, length($1)-1)}' | xargs kill
-
 ## Session
 * `tat` - Open tmux for current folder
+* `tmux` - start new
 * `Ctrl B + d` - 作業している状態を保持したままputtyを終了できる（プログラムは裏で動いたまま） 
-* `tmux kill-session -t <session-name>` - 直近にアタッチしていたセッションを削除
-* `tmux a -t <session-name>` -  既に作成されたアタッチに入ること
-
+* `tmux kill-session -t <session-name>` - kill session
+* `tmux a # (or at, or attach)` - attach
+* `tmux a -t <session-name>` -  attach to named
+* `tmux ls` - list sessions
+* `kill session` - tmux kill-session -t <session-name>
 ## Window
 * `Ctrl B + n` - Go to next window
 * `Ctrl B + p` - Go to previous window
@@ -58,4 +29,7 @@ Kill all the tmux sessions:
 * `Ctrl B + !` - Break pane
 
 
+
+start new with session name:
+    tmux new -s myname
 
