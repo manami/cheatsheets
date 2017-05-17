@@ -42,6 +42,7 @@ http://motw.mods.jp/Vim/surround.html
 * `Ctrl + d` - 下にスクロール
 * `Ctrl + G` -場所を記憶
 * `数値 + G` -記憶済みの数値行へジャンプ
+* `tree -L <number>` - <number>までtreeを表示する
 
 ## 削除
 * `Shift + C` - delete all sentence from the key
@@ -68,11 +69,12 @@ http://motw.mods.jp/Vim/surround.html
 
 ## コピー
 * `yi"` - Yank inside "" (コピー)
-* `yw` -単語1語をコピー
+* `yw` - 単語1語をコピー
+* `"_D` - コピーした単語をレジスタに保存、削除して、履歴を残さない
 
 ## ペースト
 * '0v$hy' - /nを除いて１行コピーする
-
+* [レジスタ参考サイト](http://qiita.com/0829/items/0b3f63798b6910623efc)
 
 # 動き：
 ![2017-05-15 22 43 42](https://cloud.githubusercontent.com/assets/17440627/26060426/01d31de4-39c0-11e7-9785-187f960b1143.jpg)
