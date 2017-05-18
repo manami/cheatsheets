@@ -74,7 +74,9 @@ http://motw.mods.jp/Vim/surround.html
 
 ## ペースト
 * '0v$hy' - /nを除いて１行コピーする
+* [レジスタ使い方](http://zacodesign.net/blog/?p=758)
 * [レジスタ参考サイト](http://qiita.com/0829/items/0b3f63798b6910623efc)
+
 
 # 動き：
 ![2017-05-15 22 43 42](https://cloud.githubusercontent.com/assets/17440627/26060426/01d31de4-39c0-11e7-9785-187f960b1143.jpg)
