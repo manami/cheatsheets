@@ -28,8 +28,3 @@ http://www.task-notes.com/entry/20150711/1436583600
 * `Ctrl B + x` - Delete pane
 * `Ctrl B + !` - Break pane
 
-
-
-start new with session name:
-    tmux new -s myname
-

@@ -74,9 +74,17 @@ http://motw.mods.jp/Vim/surround.html
 
 ## ペースト
 * '0v$hy' - /nを除いて１行コピーする
-* [レジスタ使い方](http://zacodesign.net/blog/?p=758)
-* [レジスタ参考サイト](http://qiita.com/0829/items/0b3f63798b6910623efc)
-
+* [レジスタ使い方](http://qiita.com/0829/items/0b3f63798b6910623efc)
+* [レジスタ参"_d{motion} ブラックホールレジスタ レジスタに影響しない
+* 'ayiw' - レジスタaに単語を登録
+* 'ap' - レジスタaの単語をpaste
+* 'P' - さっきのレジスタを貼り付ける
 
 # 動き：
 ![2017-05-15 22 43 42](https://cloud.githubusercontent.com/assets/17440627/26060426/01d31de4-39c0-11e7-9785-187f960b1143.jpg)
+
+# リプレイス：
+```
+ag '運行期間H' -G '(highway|otoku)' -l | xargs sed -iE 's/運行期間H/運行期間 : H/g' {}
+```
+http://www.atmarkit.co.jp/ait/articles/1610/13/news015.html
