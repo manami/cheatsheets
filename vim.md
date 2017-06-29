@@ -29,6 +29,8 @@ http://motw.mods.jp/Vim/surround.html
 ### 検索コマンド
 * `Ctrl + P` - Open file search window
 * `Ctrl + n` - Search css property 
+* `ag -g "application/modules/default.*index"` - `.* = 0以上の任意の文字が何個でも入る`
+* `ag  <p class="abc"> -G "application/.*"` - `[-G]はその後に続くファイルも条件に加えて検索できるコマンド`
 
 ### 移動系コマンド
 * `+` - 下の行の先頭へ
@@ -46,7 +48,7 @@ http://motw.mods.jp/Vim/surround.html
 
 ### 削除
 * `Shift + C` - delete all sentence from the key
-* `rm -rf temp-dir` - ディレクトリを内部のファイルごと削除
+* `rm -rf temp-dir` - ディレクトリを内部のファイルごと削除 `(ex)rm -rf application/modules/default/views/compiles/*`
 * `dw` -カーソルが存在する位置以降の単語を単語の最後の空白も含めて削除する
 * `de` -カーソルが存在する位置以降の単語を単語の最後の空白も含めず削除する
 * `:e!` - 保存した場所へ
@@ -66,6 +68,7 @@ http://motw.mods.jp/Vim/surround.html
 * `Ag` + `-g` + `単語名` -単語を検索
 * `Ag -Q <単語>` 正規表現使わないで単語を探す
 * `スペース` + `e`  -同じパスのファイル名まで指定して開く
+* `f` + `<単語>`  -<単語>の場所へ(大文字Fの場合、右から左に飛ぶ)
 
 ### コピー
 * `yi"` - Yank inside "" (コピー)
