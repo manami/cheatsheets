@@ -122,6 +122,13 @@ ag '期間H' -G '(highway|otoku)' -l | xargs sed -iE 's/期間H/期間 : H/g' {}
 find /work -type f | xargs -t -I{} cp {} {}.bk
 ```
 
+```
+#example - ファイル名を変更し、ファイル内のパスもファイル名に合わせて変更する
+* 1`ag "/highlights/course/am/" -l | xargs sed -i '' -e 's@highlights/course/am@highlights/course/turner@g'`
+* 2`mv am.tpl turner.tpl`
+※1,2ともにhighlightsフォルダーから実行
+```
+
 * [複数のファイルに対して特定の言を一気に置き換えする方法](http://qiita.com/fnobi/items/6761eb7c64ab1b0d98eb)
 http://www.atmarkit.co.jp/ait/articles/1610/13/news015.html
 
