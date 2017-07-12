@@ -35,3 +35,6 @@ mkdir ~/Desktop/application_backup
 * git fetch
 * git reset --hard origin/<ブランチ名>
 * そのあとは安心して開発していい（いつもの通り）
+
+## ローカルとリポジトリの差分を確認する
+git diff ローカルのSHA リモートのSHA 
