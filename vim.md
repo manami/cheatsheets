@@ -4,6 +4,7 @@
 http://motw.mods.jp/Vim/surround.html
 
 * `yss'` - 文章全体にシングルクウォート y(yank)s(surround)s(sentence)
+* `.` - 直前のコマンドを繰り返す
 * `ds'` - 文章全体のシングルクウォートを削除 d(delete)s(surround)
 * `vl(選択したい箇所まで)S'` - 選択した箇所にシングルクウォート
 * `di'` - シングルクウォート内を削除 d(delete)i(inside)
