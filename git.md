@@ -39,6 +39,14 @@
 ## ローカルとリポジトリの差分を確認する
 * `git diff ローカルのSHA リモートのSHA` 
 
-### 動き：
+### ルートディレクトリを起点として拡がるツリー構造：
 ![directory_picture](http://imgur.com/a/qQQ41.jpg)
 
+* `ls ~/Desktop` - 「ホームディレクトリ」内の「デスクトップ」の情報をみる。(チルダ展開)
+* `ls /System` - 「ルートディレクトリ」内のシステムの情報をみる
+
+## 絶対パス (ルートディレクトリ（/）から始まる)
+* `/Users/Macuser/Downloads/Test.txt` - ホームディクトリ(Macuser)のダウンロード内の「Test.txt」というファイルの絶対パス
+
+## 相対パス (カレントディレクトリから位置を指定する方法)
+* `../Dropbox/Test.txt` - ホームディレクトリ（Macuser)のDropboxにある「Test.txt」と言うファイルへの相対パス
