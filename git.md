@@ -18,9 +18,9 @@
 * `git fetch`
 * `git l origin<branch-name>`
 * `git l <branch-name>`
-`※ git lのコミットのログを見て比較する
-※ originの方にローカルにないコミットがあったらstashしてpullしないといけない
-※ ローカルにoriginにないコミットがある場合はpushしないといけない`
+* `※git lのコミットのログを見て比較する`
+* `※originの方にローカルにないコミットがあったらstashしてpullしないといけない`
+* `※ローカルにoriginにないコミットがある場合はpushしないといけない`
 
 ## コンフリクト対応
 * `1. git fetch`
