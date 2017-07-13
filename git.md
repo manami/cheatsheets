@@ -40,5 +40,5 @@
 * `git diff ローカルのSHA リモートのSHA` 
 
 ### 動き：
-!(https://do-zan.com/wp-content/uploads/2016/01/6ff83de97010e92e21e3794e0aacfda0.png)
+![directory_picture](http://imgur.com/a/8vjDd)
 
