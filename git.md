@@ -5,6 +5,10 @@
 * `2. mv am.tpl testB.tpl`
 * `※1&2 - testAフォルダーから実行`
 
+## Gitの内側 - Gitの参照
+* `cat .git/HEAD` - .git/HEAD にカレントのブランチが記録されている。
+* `cat .git/refs/heads/master` - origin リモートの master ブランチを調べる。
+
 ## バックアップ
 * `mkdir ~/Desktop/application_backup`
 * `cp -R application/* ~/Desktop/application_backup/`
@@ -14,13 +18,16 @@
 * `git reset origin/<ブランチ名>`
 * `git stash pop`
 
+## Junkファイル削除（compiles）
+* rm -rf application/modules/default/views/compiles/
+
 ## ローカルとリモートブランチを合わせる
 * `git fetch`
 * `git l origin<branch-name>`
 * `git l <branch-name>`
-* `※git lのコミットのログを見て比較する`
-* `※originの方にローカルにないコミットがあったらstashしてpullしないといけない`
-* `※ローカルにoriginにないコミットがある場合はpushしないといけない`
+* `※ git lのコミットのログを見て比較する`
+* `※ originの方にローカルにないコミットがあったらstashしてpullしないといけない`
+* `※ ローカルにoriginにないコミットがある場合はpushしないといけない`
 
 ## コンフリクト対応
 * `1. git fetch`
