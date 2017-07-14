@@ -9,6 +9,20 @@
 * `cat .git/HEAD` - .git/HEAD にカレントのブランチが記録されている。
 * `cat .git/refs/heads/master` - origin リモートの master ブランチを調べる。
 
+## renaming files
+* `1. Change file name`
+* `2. git add <new-file-name>`
+* `3. git rm <old-file-name>`
+
+## moving files
+* `1. move third_file.txt to first_directory/third_file.txt`
+* `2. git mv third_file.txt first_directory/third_file.txt` - git statusするとrenamedと表示される
+* `3. git commit -m "commit message"`
+
+## ファイルを削除
+* `1. rm <file-name>` - ファイルを削除
+* `2. git commit -m "commit-message"` - ファイルを削除した情報をコミットしてoriginとローカルを一致させる。
+
 ## バックアップ
 * `mkdir ~/Desktop/application_backup`
 * `cp -R application/* ~/Desktop/application_backup/`
@@ -47,7 +61,7 @@
 * `git diff ローカルのSHA リモートのSHA` 
 
 ### ルートディレクトリを起点として拡がるツリー構造：
-![directory_picture](http://imgur.com/a/qQQ41.jpg)
+![directory_picture](http://imgur.com/VblKqZN.jpg)
 
 * `ls ~/Desktop` - 「ホームディレクトリ」内の「デスクトップ」の情報をみる。(チルダ展開)
 * `ls /System` - 「ルートディレクトリ」内のシステムの情報をみる
