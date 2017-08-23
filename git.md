@@ -51,6 +51,14 @@
 * `5. git add .`
 * `6. git commit -m "<ブランチ名>"`
 
+## git でローカルの情報を捨てて、リモートの情報を反映、developとマージする
+* `1. git checkout .` - 現在のローカルの情報を捨てる
+* `2. git remote -v` - remoteのリポジトリをみる
+* `3. git fetch` - remoteのリポジトリをfetchする
+* `4. git pull origin [branch-name]` - remoteのリポジトリをpullする
+* `5. git checkout develop` 
+* `6. git pull origin develop`
+
 ## pullするときはクリーンな状態（編集中のファイルがない）に必ずする！
 ## ローカルの変更を捨てて100%クリーンにしてoriginの状態にする
 * `git fetch`
