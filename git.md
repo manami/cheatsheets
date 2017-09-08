@@ -1,5 +1,23 @@
 ### Git
 
+## 他のブランチをmergeする①
+* git checkout <something_branch_name>
+* git pull origin <something_branch_name>
+* git checkout <my_branch_name>
+* git merge <something_branch_name>
+* fix conflict
+* git push origin <my_branch_name>
+
+## 他のブランチをmergeする②
+* `git commit <my branch>`
+* `git checkout <someone's branch>`
+* `git pull`
+* `git checkout <someone's branch>`
+* `git rebase <someone's branch>`
+* `fix conflict`
+* `git push origin <my branch>`
+* `then someone's branch comes int o my branch`
+
 ## 複数ファイルをaddする
 ファイルをスペース区切りで複数指定することができる。
 * `1. git add readme1.md readme2.md`
