@@ -1,5 +1,10 @@
 ### Git
 
+## 複数ファイルをaddする
+ファイルをスペース区切りで複数指定することができる。
+* `1. git add readme1.md readme2.md`
+http://kimromi.hatenablog.jp/entry/2015/08/04/082357
+
 ## ファイル名変更
 * `1. ag "/testA/course/am/" -l | xargs sed -i '' -e 's@testA/course/am@testA/course/testB@g'`
 * `2. mv am.tpl testB.tpl`
