@@ -18,6 +18,12 @@
 * `git push origin <my branch>`
 * `then someone's branch comes int o my branch`
 
+## 移動とセットでブランチを作成する。
+* `git checkout -b <branchname>`
+
+## ブランチを削除する。
+* `git checkout -d <branchname>`
+
 ## 複数ファイルをaddする
 ファイルをスペース区切りで複数指定することができる。
 * `1. git add readme1.md readme2.md`
