@@ -6,4 +6,6 @@
 * `Shift + Command + ← ` - move to left tab
 * `CMD + i` - Open change tab name dialog
 * `CMD + 2` - Go to tab 2 (works for any number)
+* `rmdir` - remove directory
+* `mkdir` - make directory
 

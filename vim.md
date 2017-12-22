@@ -141,3 +141,4 @@ http://www.atmarkit.co.jp/ait/articles/1610/13/news015.html
 * `-p` - xargsで生成したコマンドを本当に実行するかどうかを確認させる
 * `-t` - xargsで指定されたコマンドの実行内容を表示させる
 * `-E` - 正規表現を使う時のフラグ
+* `:vsp + file name` - Create a vertical split
