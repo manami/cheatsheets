@@ -1,5 +1,8 @@
 ### Git
 
+## commitの事後確認　２個前までのcommitを確認
+* git log --stat -2
+
 ## 他のブランチをmergeする①
 * git checkout <something_branch_name>
 * git pull origin <something_branch_name>
