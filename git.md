@@ -22,7 +22,7 @@
 * `git checkout -b <branchname>`
 
 ## ブランチを削除する。
-* `git checkout -d <branchname>`
+* `git branch -d <branchname>`
 
 ## 複数ファイルをaddする
 ファイルをスペース区切りで複数指定することができる。
